@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:stretchColumns="0,1,2">
+<TableRow>
+    <Button
+        android:id="@+id/boton1"
+        android:text="Hola a todos"
+        android:layout_marginRight="10dp"/>
+
+        android:text="Todos" />
+</TableRow>
+<TableRow>
+<TextView
+    android:id="@+id/texto1"
+    android:layout_width="wrap_content"
+    android:text="Este es Leo Messi en un Layout"
+    android:layout_marginLeft="30dp"/>
+
+</TableRow>
+<TableRow>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/lionel_messi_png_photo" />
+</TableRow>
+
+
+
+
+    </TableLayout>
+

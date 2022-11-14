@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:alignmentMode="alignBounds"
+    android:columnCount="4"
+    android:rowCount="4">
+
+    <TextView
+        android:id="@+id/id1"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:text="Este es Leo Messi en un \n LayoutGrid" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_column="1"
+        android:text="Hola"
+        android:layout_marginTop="100dp"></Button>
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/lionel_messi_png_photo" />
+
+</GridLayout>
