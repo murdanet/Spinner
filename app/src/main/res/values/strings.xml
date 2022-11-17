@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Layout_Activity</string>
+    <string name="tgl_btn">Si</string>
+    <string name="tgl_btn2">No</string>
+    <string name="tgl_btn3">Hola</string>
+    <string name="tgl_btn4">Adios</string>
+    <string name="switch_btn">Copa del mundo Catar</string>
+    <string name="toggle_btn2">Ganas de futbol</string>
+    <string name="toggle_final1">Actividad entregada?</string>
+    <string name="toggle_final2">Tarde pero seguro</string>
+
 </resources>

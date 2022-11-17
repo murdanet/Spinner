@@ -4,31 +4,57 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FrameLayout">
+    tools:context=".FrameLayout"
+    android:backgroundTint="#808080">
 
-    <Button
-        android:id="@+id/btn1"
-        android:layout_width="249dp"
-        android:layout_height="50dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="450dp"
-        android:text="Frame Layout">
-    </Button>
+    <ToggleButton
+        android:id="@+id/btnToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:textOff="@string/tgl_btn2"
+        android:textOn="@string/tgl_btn"
+        android:layout_marginLeft="150dp"/>
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="400dp"
-        android:layout_height="400dp"
-        android:layout_marginTop="20dp"
-        app:srcCompat="@drawable/lionel_messi_png_photo" />
+    <ImageButton
+        android:id="@+id/messi"
+        android:layout_width="400px"
+        android:layout_height="400px"
+        android:layout_marginTop="100dp"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="120dp"
+        app:srcCompat="@drawable/messi"
+        android:backgroundTint="#0000"/>
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="85dp"
-        android:text="Este es Leo Messi en un Frame Layout" />
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="350dp"
+        android:text="¿Argentina campeon del mundo 2022?"
+        android:textColor="#0096FF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="470dp"
+        android:text="Clica en la flecha para cambiar de Layout"
+        android:textColor="#0096FF"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="300dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/arrow"
+        android:backgroundTint="#0000"/>
 
 
 </FrameLayout>

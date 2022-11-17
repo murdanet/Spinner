@@ -12,26 +12,27 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        app:srcCompat="@drawable/lionel_messi_png_photo" />
+        app:srcCompat="@drawable/messi" />
 
-    <Button
-        android:id="@+id/btn2"
+    <Switch android:id="@+id/btnSwitch"
+        android:text="@string/switch_btn"
+        android:layout_marginTop="-10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="-10dp"
-        android:layout_weight="2"
-        android:text="Linear Layout"
-         />
+        android:layout_below="@id/btnToggle" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="3"
-        android:layout_marginLeft="10dp"
-        android:text="Este es Leo Messi en un linear Layout"
-        android:layout_marginTop="-10dp"
-        />
+
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_weight="4"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/arrow"
+        android:backgroundTint="#0000"/>
+
+
 
 
 

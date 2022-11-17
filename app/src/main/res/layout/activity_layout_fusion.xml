@@ -5,70 +5,83 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:stretchColumns="0,1,2">
     <TableRow>
-        <Button
-            android:id="@+id/boton1"
-            android:text="En esta activity hay dos layouts"
-            android:layout_marginRight="10dp"/>
 
-        android:text="Todos" />
-    </TableRow>
-    <TableRow>
-        <TextView
-            android:id="@+id/texto1"
+        <ToggleButton android:id="@+id/btnPersonalizado"
+            android:textOff="@string/toggle_final1"
+            android:textOn="@string/toggle_final2"
             android:layout_width="wrap_content"
-            android:text="Un TableLayout con Messi"
-            android:layout_marginLeft="30dp"/>
+            android:layout_height="wrap_content"
+            android:textColor="#7393B3"
+            style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+            ></ToggleButton>
 
     </TableRow>
+
     <TableRow>
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/lionel_messi_png_photo" />
+<TextView
+    android:id="@+id/textviewfinal"
+    android:text="Aprobado?"
+    android:layout_marginLeft="160dp">
+
+</TextView>
+
     </TableRow>
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+<TableRow>
+    <Switch
+        android:id="@+id/btn_switch"
+        android:switchPadding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aprobado, aunque haya entregado tarde? Sí"
+        >
+
+    </Switch>
+
+
+
+</TableRow>
+    <LinearLayout
+        android:id="@+id/barraBotones"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="center">
-
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="100dp"
+        android:layout_alignParentBottom="true"
+        style="?android:attr/buttonBarStyle">
+        <Button android:id="@+id/btAcceptar"
+            android:layout_marginBottom="70dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@drawable/lionel_messi_png_photo" />
-
-        <Button
-            android:id="@+id/btn2"
+            android:text="Aprobar"
+            style="?android:attr/buttonBarButtonStyle" />
+        <Button android:id="@+id/btnCancelar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="-10dp"
-            android:layout_weight="2"
-            android:text="En esta activity hay dos layouts"
-            />
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="3"
-            android:layout_marginLeft="10dp"
-            android:text="Y un LinearLayout con Messi"
-            android:layout_marginTop="-10dp"
-            />
-
-
-
+            android:layout_weight="1"
+            android:text="Aprobar"
+            style="?android:attr/buttonBarButtonStyle" />
     </LinearLayout>
 
+    <TableRow>
+        <ImageButton
+            android:id="@+id/leomessifinal"
+            android:layout_width="2px"
+            android:layout_height="3500dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#0000"
+            app:srcCompat="@drawable/messi__1_"
+
+
+
+            ></ImageButton>
+
+    </TableRow>
 
 
 </TableLayout>
+
 
 
 
