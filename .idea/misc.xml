@@ -4,8 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/toogle_style.xml" value="0.2085" />
+        <entry key="app/src/main/res/layout/activity_buttons.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_buttons_extended.xml" value="0.28125" />
         <entry key="app/src/main/res/layout/activity_grid_layout.xml" value="0.2759704589843751" />
-        <entry key="app/src/main/res/layout/activity_layout_fusion.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_layout_fusion.xml" value="0.2374405459785857" />
         <entry key="app/src/main/res/layout/activity_linear_layout.xml" value="0.15545654296875" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.27254638671875" />
         <entry key="app/src/main/res/layout/activity_relative_layout.xml" value="0.265765380859375" />

@@ -47,5 +47,9 @@
         android:scaleType="fitXY"
         app:srcCompat="@drawable/arrow" />
 
+    <CheckBox
+        android:layout_row="0"
+        android:layout_column="0" />
+
 
 </GridLayout>
