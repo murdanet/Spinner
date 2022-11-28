@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TascaText"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    tools:context=".TascaText">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FORMULARIO DE REGISTRO"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etxt_nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Ingrese su nombre"
+                android:textColorHint="@color/design_default_color_secondary_variant"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                />
+
+            <EditText
+                android:id="@+id/etxt_apellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Ingrese su apellido"
+                android:textColorHint="@color/design_default_color_secondary_variant"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                />
+
+            <EditText
+                android:id="@+id/etxt_telefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:textColorHint="@color/design_default_color_secondary_variant"
+                android:hint="@string/Telefono"
+                android:drawableStart="@drawable/ic_phone"/>
+
+            <EditText
+                android:id="@+id/etxt_correo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Correo Electrónico"
+                android:textColorHint="@color/design_default_color_secondary_variant"
+                android:drawableStart="@drawable/ic_mail"
+                />
+
+            <EditText
+                android:id="@+id/etxt_direccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Escriba su direccion"
+                android:textColorHint="@color/design_default_color_secondary_variant"
+                android:drawableStart="@drawable/ic_home"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"></LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_TD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Toca el icono de FIFA para continuar"
+                    android:textSize="22sp"
+                    android:textColor="@color/purple_700"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/Fifa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/fcm_rgbf_s"
+        android:scaleType="fitXY"/>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
