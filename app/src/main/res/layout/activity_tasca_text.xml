@@ -123,8 +123,8 @@
         android:id="@+id/Fifa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/fcm_rgbf_s"
-        android:scaleType="fitXY"/>
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/fcm_rgbf_s" />
 
 
 </LinearLayout>
