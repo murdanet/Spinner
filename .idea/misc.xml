@@ -6,17 +6,20 @@
         <entry key="app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.116" />
         <entry key="app/src/main/res/drawable/ic_usuari_background.xml" value="0.2085" />
         <entry key="app/src/main/res/drawable/icono_usuario.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/item_view.xml" value="0.2085" />
         <entry key="app/src/main/res/drawable/toogle_style.xml" value="0.2085" />
         <entry key="app/src/main/res/layout/activity_buttons.xml" value="0.18004608154296875" />
         <entry key="app/src/main/res/layout/activity_buttons_extended.xml" value="0.28125" />
         <entry key="app/src/main/res/layout/activity_grid_layout.xml" value="0.6516952514648439" />
         <entry key="app/src/main/res/layout/activity_images_and_text.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_layout_fusion.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_layout_fusion.xml" value="0.21497497558593748" />
         <entry key="app/src/main/res/layout/activity_linear_layout.xml" value="0.12401885986328126" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.27254638671875" />
         <entry key="app/src/main/res/layout/activity_relative_layout.xml" value="0.265765380859375" />
         <entry key="app/src/main/res/layout/activity_table_layout.xml" value="0.28125" />
-        <entry key="app/src/main/res/layout/activity_tasca_text.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_tasca_text.xml" value="0.24037017822265627" />
+        <entry key="app/src/main/res/layout/formulari.xml" value="0.17425188337053565" />
+        <entry key="app/src/main/res/layout/item_view.xml" value="0.12604166666666666" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.116" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_usuari_round.xml" value="0.2085" />
       </map>
